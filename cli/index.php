@@ -1,3 +1,4 @@
+ 
 <?php
 require_once('Threesandfives.php');
 
@@ -11,9 +12,12 @@ class evaluator {
     }
 
     public function run($maxval){
-        $this->threesfives->run($maxval);
+        for ($i=1; $i<=$maxval; $i++) {
+            $this->threesfives->evaluate($i);
+		}
     }
 
+  
     
 
 }
@@ -25,3 +29,4 @@ $evaler->run(100);
 
  
 ?>
+ 

@@ -12,9 +12,12 @@ class evaluator {
     }
 
     public function run($maxval){
-        $this->threesfives->run($maxval);
+        for ($i=1; $i<=$maxval; $i++) {
+            $this->threesfives->evaluate($i);
+		}
     }
 
+  
     
 
 }

@@ -3,9 +3,7 @@
 interface ThreeFive {
 
 	function evaluate($candidateNumber);
-	function run($upperLimit);
-
-
+ 
 }
 
 
@@ -28,13 +26,6 @@ class Threesandfives implements ThreeFive {
 		echo "$candidateNumber \n";
 
 	}
-
-	public function run($upperLimit){
-		for ($i=1; $i<=$upperLimit; $i++) {
-			$this->evaluate($i);
-		}
-	}
-
 
 
 }
