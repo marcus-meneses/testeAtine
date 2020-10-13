@@ -1,9 +1,18 @@
 <?php
 
-final class Threesandfives {
+interface ThreeFive {
+
+	function evaluate($candidateNumber);
+	function run($upperLimit);
 
 
-	private function evaluate($candidateNumber){
+}
+
+
+class Threesandfives implements ThreeFive {
+
+
+	public function evaluate($candidateNumber){
 		 
 		$blanks = array(3,5,15);
 		$text = array('Three','Five','ThreeAndFive'); 
@@ -20,13 +29,12 @@ final class Threesandfives {
 
 	}
 
-	public function run($upperLimit) {
-
+	public function run($upperLimit){
 		for ($i=1; $i<=$upperLimit; $i++) {
 			$this->evaluate($i);
 		}
-	
-
 	}
+
+
 
 }

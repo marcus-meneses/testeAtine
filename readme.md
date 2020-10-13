@@ -16,8 +16,8 @@ copiar arquivos da pasta browser e executar através do navegador exemplo: http:
 English:
 
 
-"Hello, this is the test asked in order to apply for the developr position offered by Atine Group.
-The work was executed considering th execution in CLI or browser.
+"Hello, this is the test asked in order to apply for the developer position offered by Atine Group.
+The work was executed considering the execution in CLI or browser.
 It was coded using PHP 7.2+ (but may run in other versions, although it was not tested)"
 
 in order to run in CLI mode: 
