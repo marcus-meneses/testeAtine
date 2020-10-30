@@ -1,4 +1,4 @@
-Nota O teste consiste em verificar se um número é múltiplo de 3, 5 ou os dois ao mesmo tempo,
+Nota: O teste consiste em verificar se um número é múltiplo de 3, 5 ou os dois ao mesmo tempo,
 porém utilizando apenas 1 IF, sem outras estruturas de comparação.
 
 
