@@ -1,3 +1,7 @@
+Nota O teste consiste em verificar se um número é múltiplo de 3, 5 ou os dois ao mesmo tempo,
+porém utilizando apenas 1 IF, sem outras estruturas de comparação.
+
+
 Portuguese:
 
 Olá, este é o teste solicitado para a vaga de desenvolvedor oferecida pelo grupo Atine
